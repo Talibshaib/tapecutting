@@ -1,0 +1,7 @@
+Color
+primary color = #143C6D
+secondary color = #F2F2F2
+tertiary color = #000000
+
+Font
+primary font = Roboto
