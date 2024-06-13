@@ -150,7 +150,7 @@ function App() {
           <div className="team-cards">
             <div className="team-card">
               <img
-                src="/src/assets/photo-1500648767791-00dcc994a43e.avif"
+                src="src/assets/bgHome.jpg"
                 alt="Team Member 1"
               />
               <h3>John Doe</h3>
@@ -161,7 +161,7 @@ function App() {
             </div>
             <div className="team-card">
               <img
-                src="src/assets/photo-1507003211169-0a1dd7228f2d.avif"
+                src="src/assets/bgHome.jpg"
                 alt="Team Member 2"
               />
               <h3>Jane Smith</h3>
@@ -172,7 +172,7 @@ function App() {
             </div>
             <div className="team-card">
               <img
-                src="src/assets/premium_photo-1664536392779-049ba8fde933.jpeg"
+                src="src/assets/bgHome.jpg"
                 alt="Team Member 3"
               />
               <h3>Emily Johnson</h3>
