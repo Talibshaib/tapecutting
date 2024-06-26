@@ -488,6 +488,9 @@ body {
   .contact-us form label {
     width: 48%;
   }
+  .footer {
+    padding: 3em 6em;
+  }
   .footer-subscribe form {
     display: flex;
     flex-direction: row;

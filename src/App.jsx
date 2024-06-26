@@ -236,9 +236,6 @@ function App() {
                   <a href="#">Our Story</a>
                 </li>
                 <li>
-                  <a href="#">Made with Care</a>
-                </li>
-                <li>
                   <a href="#">Blog</a>
                 </li>
               </ul>
@@ -251,9 +248,6 @@ function App() {
                 </li>
                 <li>
                   <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#">Accessibility</a>
                 </li>
               </ul>
             </div>
