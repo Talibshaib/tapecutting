@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import "./App.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import kareemImg from "./assets/Kareem.jpeg";
+import rahimImg from "./assets/Rahim.jpeg";
 
 function App() {
   const [contactData, setContactData] = useState({
@@ -149,12 +151,12 @@ function App() {
           <h2>Our Team</h2>
           <div className="team-cards">
             <div className="team-card">
-              <img src="src/assets/Kareem.jpeg" alt="Team Member 1" />
+              <img src={kareemImg} alt="Team Member 1" />
               <h3>Kareem Shaikh</h3>
               <p>Founder</p>
             </div>
             <div className="team-card">
-              <img src="src/assets/Rahim.jpeg" alt="Team Member 2" />
+              <img src={rahimImg} alt="Team Member 2" />
               <h3>Raheem Shaikh</h3>
               <p>Co-Founder</p>
             </div>
