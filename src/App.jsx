@@ -149,25 +149,14 @@ function App() {
           <h2>Our Team</h2>
           <div className="team-cards">
             <div className="team-card">
-              <img src="src/assets/bgHome.jpg" alt="Team Member 1" />
-              <h3>John Doe</h3>
-              <p>
-                Lead Engineer
-              </p>
+              <img src="src/assets/Kareem.jpeg" alt="Team Member 1" />
+              <h3>Kareem Shaikh</h3>
+              <p>Founder</p>
             </div>
             <div className="team-card">
-              <img src="src/assets/bgHome.jpg" alt="Team Member 2" />
-              <h3>Jane Smith</h3>
-              <p>
-                Chief Designer
-              </p>
-            </div>
-            <div className="team-card">
-              <img src="src/assets/bgHome.jpg" alt="Team Member 3" />
-              <h3>Emily Johnson</h3>
-              <p>
-                Customer Relations Manager
-              </p>
+              <img src="src/assets/Rahim.jpeg" alt="Team Member 2" />
+              <h3>Raheem Shaikh</h3>
+              <p>Co-Founder</p>
             </div>
           </div>
         </section>

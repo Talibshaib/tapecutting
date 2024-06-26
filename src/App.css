@@ -378,7 +378,7 @@ body {
   }
 
   .team-cards {
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
   }
 
