@@ -87,7 +87,7 @@ function App() {
       </header>
       <main className="App-main">
         <section id="home" className="hero">
-          <h1>Discover Your Trusted Home Service Specialist</h1>
+          <h1>Discover Your Trusted Service Specialist</h1>
           <p>
             Experience Unrivaled Expertise, Meticulous Attention to Detail, and
             Unwavering Commitment to Transforming Your Home into a Haven of
@@ -149,36 +149,24 @@ function App() {
           <h2>Our Team</h2>
           <div className="team-cards">
             <div className="team-card">
-              <img
-                src="src/assets/bgHome.jpg"
-                alt="Team Member 1"
-              />
+              <img src="src/assets/bgHome.jpg" alt="Team Member 1" />
               <h3>John Doe</h3>
               <p>
-                Lead Engineer with 10 years of experience in tape cutting
-                technology.
+                Lead Engineer
               </p>
             </div>
             <div className="team-card">
-              <img
-                src="src/assets/bgHome.jpg"
-                alt="Team Member 2"
-              />
+              <img src="src/assets/bgHome.jpg" alt="Team Member 2" />
               <h3>Jane Smith</h3>
               <p>
-                Chief Designer focused on creating innovative solutions for our
-                clients.
+                Chief Designer
               </p>
             </div>
             <div className="team-card">
-              <img
-                src="src/assets/bgHome.jpg"
-                alt="Team Member 3"
-              />
+              <img src="src/assets/bgHome.jpg" alt="Team Member 3" />
               <h3>Emily Johnson</h3>
               <p>
-                Customer Relations Manager dedicated to ensuring client
-                satisfaction.
+                Customer Relations Manager
               </p>
             </div>
           </div>
@@ -240,7 +228,7 @@ function App() {
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-subscribe">
-            <p>Subscribe to get special offers & once-in-a-lifetime deals.</p>
+            <p>Subscribe to get special offers</p>
             <form>
               <input
                 type="email"
@@ -275,17 +263,6 @@ function App() {
                 </li>
                 <li>
                   <a href="#">Accessibility</a>
-                </li>
-              </ul>
-            </div>
-            <div className="footer-column">
-              <h4>Boutiques</h4>
-              <ul>
-                <li>
-                  <a href="#">Find a store</a>
-                </li>
-                <li>
-                  <a href="#">Book a free eye test</a>
                 </li>
               </ul>
             </div>
