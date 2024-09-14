@@ -18,7 +18,6 @@ function App() {
   const [successMessage, setSuccessMessage] = useState("");
 
   useEffect(() => {
-    // Check local storage for submission flag
     const submissionFlag = localStorage.getItem("formSubmitted");
     if (submissionFlag) {
       setIsSubmitted(true);
@@ -32,7 +31,6 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // EmailJS configuration
     const serviceID = "service_9lw8y27";
     const templateID = "template_oqn06zu";
     const publicKey = "Ko78QeIe9T1syn6vf";
@@ -40,7 +38,6 @@ function App() {
     emailjs.send(serviceID, templateID, contactData, publicKey).then(
       (response) => {
         console.log("SUCCESS!", response.status, response.text);
-        // Reset the form and show a success message
         setContactData({
           from_name: "",
           to_name: "Kareem",
